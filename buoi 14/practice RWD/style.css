@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 20%;
+    background-color: turquoise;
+}
+article {
+    width: 70%;
+    height: 60%;
+    float: left;
+    background-color: lightsalmon;
+}
+aside {
+    width: 30%;
+    height: 60%;
+    float: left;
+    background-color: lime;
+}
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: violet;
+}
+section {
+    height: 15%;
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: maroon;
+}
+@media screen and (min-width: 1000px) {
+    article,
+    aside {
+        width: 100%;
+    }
+}

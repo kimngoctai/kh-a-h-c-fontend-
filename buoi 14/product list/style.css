@@ -1,0 +1,25 @@
+img {
+    width: 100%;
+}
+/* body < div chi ap dung cho cac div la con cua body duoi 1 cap */
+body > div {
+    float: left;
+    width: 16%;
+    margin: 20px 2% 20px 2%;
+    opacity: 0.7;
+    transition-duration: 2s;
+}
+
+h1 + div {
+    background-color: #ccc; /*the div duy nhat duoi h1 */
+}
+h1 ~ div {
+    background-color: #ccc; /*tat ca the div duoi h1 */
+}
+body > div:hover {
+    background-color: red;
+    opacity: 1;
+}
+h1 {
+    text-align: center;
+}

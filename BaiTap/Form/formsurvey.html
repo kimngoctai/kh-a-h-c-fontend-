@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse; /*kieu border*/
+                width: 100%;
+            }
+            td {
+                border: 1px solid #000;
+            }
+            th {
+                border: 1px solid #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="border-bottom: 1px dotted #ccc">
+            <h2>Market Research Survey</h2>
+            <p>
+                please take a few moments to complete this satisfaction survey
+            </p>
+        </div>
+        <p>What is your age range?</p>
+        <select name="" id="">
+            <option value="">18-24</option>
+            <option value="">25-34</option>
+            <option value="">35-50</option>
+            <option value="">50+</option>
+        </select>
+        <p>What is your yearly income range?</p>
+        <select name="" id="">
+            <option value="">$0-$25,000</option>
+            <option value="">$25,001-$50,000</option>
+            <option value="">$50,001-$100,000</option>
+            <option value="">$100,000+</option>
+        </select>
+        <p>Gender Identity</p>
+        <input type="radio" name="gender" /> Male <br />
+        <input type="radio" name="gender" /> Female <br />
+        <input type="radio" name="gender" /> Nonbinary <br />
+        <input type="radio" name="gender" /> other <br />
+        <input type="text" style="margin-left: 20px" /> <br />
+        <p style="display: inline; margin-left: 20px">
+            Maximum of 250 characters
+        </p>
+        <p style="display: inline; margin-left: 20px" ;>
+            Currently Used: 0 characters.
+        </p>
+        <h4>
+            Which of the following products have your purchased in the last 2
+            months. Please check all that apply.
+        </h4>
+        <input type="checkbox" /> Product 1 <br />
+        <input type="checkbox" /> Product 2 <br />
+        <input type="checkbox" /> Product 3 <br />
+        <h4>How often would you use our new product?</h4>
+        <input type="radio" name="product" /> Daily <br />
+        <input type="radio" name="product" /> Weekly <br />
+        <input type="radio" name="product" /> Monthly <br />
+        <h4>What would you pay for the new product?</h4>
+        $ <input type="text" style="width: 50px" /> .
+        <input type="text" style="width: 20px" />
+        <h4>What features would you like to see in the new product.</h4>
+        <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            type="text"
+            style="width: 100%"
+        ></textarea>
+        <br />
+        <p>
+            Please rate your level of agreement with the following statements.
+        </p>
+        <table>
+            <tr style="background-color: #ccc">
+                <th></th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Strongly Agree</th>
+                <th>Agree</th>
+            </tr>
+            <tr>
+                <td>Our products are priced fairly.</td>
+                <td><input type="radio" name="priced" />1</td>
+                <td><input type="radio" name="priced" />2</td>
+                <td><input type="radio" name="priced" />3</td>
+                <td><input type="radio" name="priced" />4</td>
+            </tr>
+            <tr style="background-color: #ccc">
+                <td>Our products are high quality.</td>
+                <td><input type="radio" name="quality" />1</td>
+                <td><input type="radio" name="quality" />2</td>
+                <td><input type="radio" name="quality" />3</td>
+                <td><input type="radio" name="quality" />4</td>
+            </tr>
+            <tr>
+                <td>
+                    You would recommend our product to a friend or coworker..
+                </td>
+                <td><input type="radio" name="recommend " />1</td>
+                <td><input type="radio" name="recommend " />2</td>
+                <td><input type="radio" name="recommend " />3</td>
+                <td><input type="radio" name="recommend " />4</td>
+            </tr>
+        </table>
+        <br />
+        <input type="submit" />
+    </body>
+</html>

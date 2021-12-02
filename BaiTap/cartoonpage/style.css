@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+}
+.navbar {
+    text-align: center;
+}
+.navbar > a {
+    text-decoration: none;
+    border-left: 1px solid #000;
+    padding: 0 10px 0 10px;
+}
+.list {
+    width: 30%;
+    height: auto;
+    float: left;
+    border: 10px solid #ccc;
+}
+.list video {
+    width: 100%;
+}
+.whatching {
+    width: 67%;
+    float: right;
+}
+.whatching video {
+    width: 100%;
+}
+#content {
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+}
+header {
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+h4,
+p {
+    display: inline;
+}
+p {
+    font-size: 12px;
+}
+footer {
+    text-align: center;
+}
