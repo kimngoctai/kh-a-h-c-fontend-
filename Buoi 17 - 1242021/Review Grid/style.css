@@ -1,0 +1,67 @@
+body,
+html {
+    width: 1000px;
+    height: 500px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 2fr 1fr 2fr 4fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-areas:
+        "i1 i2 i2 i3 i4"
+        "i5 i2 i2 i3 i6 "
+        " i7 i8 i9 i3 i10"
+        "i11 i11 i11 i3 i12";
+}
+
+.container {
+}
+.item-1 {
+    background-color: rgb(235, 190, 190);
+    grid-area: i1;
+}
+.item-2 {
+    background-color: rgb(197, 63, 63);
+    grid-area: i2;
+}
+.item-3 {
+    background-color: rgb(207, 41, 41);
+    grid-area: i3;
+}
+.item-4 {
+    background-color: rgb(139, 175, 72);
+    grid-area: i4;
+}
+.item-5 {
+    background-color: rgb(47, 119, 29);
+    grid-area: i5;
+}
+.item-6 {
+    background-color: rgb(40, 190, 190);
+    grid-area: i6;
+}
+.item-7 {
+    background-color: rgb(20, 113, 150);
+    grid-area: i7;
+}
+.item-8 {
+    background-color: rgb(145, 146, 236);
+    grid-area: i8;
+}
+.item-9 {
+    background-color: rgb(30, 43, 219);
+    grid-area: i9;
+}
+.item-10 {
+    background-color: rgb(84, 31, 114);
+    grid-area: i10;
+}
+.item-11 {
+    background-color: rgb(236, 14, 144);
+    grid-area: i11;
+}
+.item-12 {
+    background-color: rgb(143, 52, 52);
+    grid-area: i12;
+}
