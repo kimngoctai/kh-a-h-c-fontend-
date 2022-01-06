@@ -1,0 +1,88 @@
+.avatar {
+  display: inline-block;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.avatar p {
+  color: #fff;
+  float: right;
+  margin-left: 20px;
+}
+
+.avatar span {
+  color: red;
+}
+
+.desc p {
+  color: #a0a7ab;
+}
+
+.share {
+  background-color: #292e38;
+  color: #fff;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.share .share-title {
+  margin: auto 8px;
+}
+
+.share i {
+  font-size: 30px;
+  padding-left: 8px;
+}
+
+.share i:hover {
+  color: red;
+}
+
+.share .share-infor-icon {
+  margin: auto 8px;
+}
+
+.comment-desc {
+  padding-top: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.reply {
+  width: 60%;
+  margin: auto;
+}
+
+.reply .btnPost {
+  margin-left: 21%;
+  color: #fff;
+  font-weight: bold;
+  background-color: red;
+}
+
+.reply p {
+  color: #fff;
+}
+
+.reply .input input {
+  font-weight: bold;
+  border: 1px solid #2f3541;
+  background-color: #181c23;
+  margin: auto;
+  width: 30%;
+}
+
+.reply .message {
+  padding: 1.3333%;
+}
+
+.reply .message textarea {
+  font-weight: bold;
+  border-color: #2f3541;
+  height: 200px;
+  width: 100%;
+  background-color: #181c23;
+}
+/*# sourceMappingURL=information.css.map */

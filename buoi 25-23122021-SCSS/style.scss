@@ -1,0 +1,51 @@
+$main-color: orangered;
+@mixin lesson-style($custome-color) {
+    height: 40%;
+    width: 50%;
+    float: left;
+    background-color: $custome-color;
+}
+
+h1 {
+    color: $main-color;
+}
+
+h2 {
+    color: $main-color;
+}
+
+p {
+    color: $main-color;
+}
+
+.lesson-1 {
+    h2 {
+        color: saddlebrown;
+    }
+    p {
+        color: salmon;
+    }
+    @include lesson-style(yellow);
+}
+
+.lesson-2 {
+    h2 {
+        color: burlywood;
+    }
+    p {
+        color: aquamarine;
+    }
+    @include lesson-style(violet);
+}
+
+.lesson-3 {
+    h2 {
+        color: black;
+    }
+    p {
+        color: chocolate;
+    }
+    @include lesson-style(seagreen);
+}
+div {
+}

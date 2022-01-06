@@ -1,0 +1,29 @@
+.sell {
+    span {
+        color: red;
+    }
+    .badge {
+        position: absolute;
+        margin-top: 20px;
+        font-size: 26px;
+    }
+}
+.nextList {
+    margin-top: 20px;
+
+    button {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    button:hover {
+        color: red;
+    }
+    div {
+        border-color: #292e38;
+    }
+}
+.share {
+    background-color: #292e38;
+}
